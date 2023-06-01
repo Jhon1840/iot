@@ -1,0 +1,32 @@
+{
+    "GET /aulas": {
+      "description": "Obtiene todos los registros de aula",
+      "example": "GET /aulas"
+    },
+    "POST /aulas": {
+      "description": "Crea un nuevo registro de aula",
+      "example": "POST /aulas",
+      "body": {
+        "id_aula": "pg 106",
+        "piso": "uno",
+        "modulo": "postgrado",
+        "estado": "habilitado",
+        "tipo": "Normal"
+      }
+    },
+    "PUT /aulas/{id_aula}": {
+      "description": "Actualiza un registro de aula existente",
+      "example": "PUT /aulas/pg%20106",
+      "body": {
+        "piso": "dos",
+        "modulo": "postgrado",
+        "estado": "habilitado",
+        "tipo": "Normal"
+      }
+    },
+    "DELETE /aulas/{id_aula}": {
+      "description": "Elimina un registro de aula existente",
+      "example": "DELETE /aulas/pg%20106"
+    }
+  }
+  
